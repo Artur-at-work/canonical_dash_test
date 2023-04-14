@@ -1,2 +1,4 @@
 /usr/bin/dash  /bin
 /usr/share
+testing.sh usr/bin
+

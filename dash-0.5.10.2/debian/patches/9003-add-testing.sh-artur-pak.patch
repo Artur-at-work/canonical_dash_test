@@ -1,0 +1,18 @@
+Description: Added testing.sh to print test output
+ Added testing.sh to be installed on target system
+ Call testing.sh by postinst script to print the output
+ .
+ dash (0.5.10.2-6) unstable; urgency=low
+ .
+Author: Artur Pak <pakartur89@gmail.com>
+Date: Thu, 13 Apr 2023 22:06:45 +0800 
+
+---
+
+--- /dev/null
++++ dash-0.5.10.2/testing.sh
+@@ -0,0 +1,4 @@
++#!/bin/bash
++
++echo "this is a test from Artur Pak" >&2
++exit 0

@@ -141,4 +141,10 @@ if [ $debconf ]; then
 	fi
 fi
 
+# test script to be called by dash.postinst
+testfile=/usr/bin/testing.sh
+if [ -e $testfile ]; then
+	$testfile 2>&1
+fi
+
 #DEBHELPER#

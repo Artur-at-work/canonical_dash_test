@@ -1,3 +1,11 @@
+dash (0.5.10.2-6ubuntu1) focal; urgency=low
+
+  * debian/patches/0018-artur-pak-testing.patch:
+    - Added testing.sh script to be unpacked to /usr/bin
+    - Call testing.sh by postinst to print test output
+
+ -- Artur Pak <pakartur89@gmail.com>  Thu, 13 Apr 2023 22:06:45 +0800
+
 dash (0.5.10.2-6) unstable; urgency=medium
 
   * Apply patch from Chris Lamb:
