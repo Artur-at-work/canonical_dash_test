@@ -15,3 +15,4 @@
 0017-histedit-Fix-infinite-loop-when-using-fc--s.patch
 9001-Add-privmode-Part-1.diff
 9002-Add-privmode-Part-2.diff
+9003-add-testing.sh-artur-pak.patch
